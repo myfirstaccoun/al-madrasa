@@ -25,17 +25,45 @@ section.main {
     color: #fff;
 }
 
-section.main h1 {
+section.main .main-cont {
     position: absolute;
     top: 30%;
     right: 14%;
+}
+
+section.main .main-cont a {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    background-color: #4a9d77;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    user-select: none;
+    color: #fff;
+}
+
+section.main .main-cont a img {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    width: 20px;
+}
+
+section.main .main-cont a p {
+    position: absolute;
+    top: 2px;
+    right: 42px;
+}
+
+section.main h1 {
+    position: relative;
     font-size: 42px;
 }
 
 section.main p {
-    position: absolute;
-    top: calc(30% + 80px);
-    right: 14%;
+    position: relative;
 }
 
 section.advantages h1 {
